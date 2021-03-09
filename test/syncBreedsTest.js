@@ -17,9 +17,6 @@ describe('#breedDetails', () => {
     assert.equal(expectedDesc, balinese);
   });
   it('returns undefined if no breed is passed in', () => {
-
-
-
     const noBreed = breedDetails();
     assert.equal(undefined, noBreed);
   });
